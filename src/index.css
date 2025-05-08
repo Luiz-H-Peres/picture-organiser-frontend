@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+#root {
+  @apply min-w-full max-w-screen-lg;
+}
+
 /* Custom Styles (Use Tailwind classes inside components instead) */
 body {
   @apply flex items-center justify-center min-h-screen bg-white text-gray-900 font-sans;

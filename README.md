@@ -1,8 +1,23 @@
-# React + Vite
+# 📸 Picture Organiser - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## First Steps
 
-Currently, two official plugins are available:
+Install the dependencies:
+```
+npm install
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Run the development server:
+```
+npm run dev
+```
+
+## Before you start
+- Ensure you have the correct version of Node.js installed.
+- Ensure the API is running.
+- Ensure you have API url on frontend/src/api.ts
+
+
+## Technical Notes
+
+The frontend project uses [Vite](https://vitejs.dev/) as a build tool.
